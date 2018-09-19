@@ -56,6 +56,10 @@
 		095C62DF21526CC000B51A3F /* ktbe */ = {
 			isa = PBXGroup;
 			children = (
+				095C62F821526D2000B51A3F /* DataService */,
+				095C62F721526D0F00B51A3F /* Controller */,
+				095C62F621526D0800B51A3F /* View */,
+				095C62F521526CFC00B51A3F /* Model */,
 				095C62E021526CC000B51A3F /* AppDelegate.swift */,
 				095C62E221526CC000B51A3F /* ViewController.swift */,
 				095C62E421526CC000B51A3F /* Main.storyboard */,
@@ -65,6 +69,34 @@
 				095C62E721526CC000B51A3F /* ktbe.xcdatamodeld */,
 			);
 			path = ktbe;
+			sourceTree = "<group>";
+		};
+		095C62F521526CFC00B51A3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		095C62F621526D0800B51A3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		095C62F721526D0F00B51A3F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		095C62F821526D2000B51A3F /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
