@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		095C62E121526CC000B51A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C62E021526CC000B51A3F /* AppDelegate.swift */; };
-		095C62E321526CC000B51A3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C62E221526CC000B51A3F /* ViewController.swift */; };
+		095C62E321526CC000B51A3F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C62E221526CC000B51A3F /* MainVC.swift */; };
 		095C62E621526CC000B51A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C62E421526CC000B51A3F /* Main.storyboard */; };
 		095C62E921526CC000B51A3F /* ktbe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 095C62E721526CC000B51A3F /* ktbe.xcdatamodeld */; };
 		095C62EB21526CC300B51A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095C62EA21526CC300B51A3F /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		095C62DD21526CC000B51A3F /* ktbe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ktbe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C62E021526CC000B51A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		095C62E221526CC000B51A3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		095C62E221526CC000B51A3F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		095C62E521526CC000B51A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		095C62E821526CC000B51A3F /* ktbe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ktbe.xcdatamodel; sourceTree = "<group>"; };
 		095C62EA21526CC300B51A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,15 +56,12 @@
 		095C62DF21526CC000B51A3F /* ktbe */ = {
 			isa = PBXGroup;
 			children = (
+				095C62FA2152711200B51A3F /* Support Files */,
+				095C62F9215270E300B51A3F /* Storyboard */,
 				095C62F821526D2000B51A3F /* DataService */,
 				095C62F721526D0F00B51A3F /* Controller */,
 				095C62F621526D0800B51A3F /* View */,
 				095C62F521526CFC00B51A3F /* Model */,
-				095C62E021526CC000B51A3F /* AppDelegate.swift */,
-				095C62E221526CC000B51A3F /* ViewController.swift */,
-				095C62E421526CC000B51A3F /* Main.storyboard */,
-				095C62EA21526CC300B51A3F /* Assets.xcassets */,
-				095C62EC21526CC300B51A3F /* LaunchScreen.storyboard */,
 				095C62EF21526CC300B51A3F /* Info.plist */,
 				095C62E721526CC000B51A3F /* ktbe.xcdatamodeld */,
 			);
@@ -74,6 +71,8 @@
 		095C62F521526CFC00B51A3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				095C62E021526CC000B51A3F /* AppDelegate.swift */,
+				095C62E221526CC000B51A3F /* MainVC.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +96,23 @@
 			children = (
 			);
 			path = DataService;
+			sourceTree = "<group>";
+		};
+		095C62F9215270E300B51A3F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				095C62EC21526CC300B51A3F /* LaunchScreen.storyboard */,
+				095C62E421526CC000B51A3F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		095C62FA2152711200B51A3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				095C62EA21526CC300B51A3F /* Assets.xcassets */,
+			);
+			path = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095C62E321526CC000B51A3F /* ViewController.swift in Sources */,
+				095C62E321526CC000B51A3F /* MainVC.swift in Sources */,
 				095C62E921526CC000B51A3F /* ktbe.xcdatamodeld in Sources */,
 				095C62E121526CC000B51A3F /* AppDelegate.swift in Sources */,
 			);
